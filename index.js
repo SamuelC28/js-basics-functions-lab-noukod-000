@@ -7,9 +7,9 @@ function distanceFromHqInBlocks(block){
    return 42 - block
    }
  }
- // function distanceFromHqInFeet(amountOfBlocks){
- //     return distanceFromHqInBlocks(amountOfBlocks) * 264;
- // }
+ function distanceFromHqInFeet(amountOfBlocks){
+     return distanceFromHqInBlocks(amountOfBlocks) * 264;
+ }
 
  function distanceTravelledInFeet (pointBlockA, pointBlockB){
      return pointBlockA > pointBlockB ?
