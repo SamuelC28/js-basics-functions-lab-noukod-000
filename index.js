@@ -14,4 +14,4 @@ function distanceFromHqInBlocks(block){
  function distanceTravelledInFeet (pointBlockA, pointBlockB){
      return pointBlockA > pointBlockB ?
     (pointBlockA - pointBlockB) * 264 : (pointBlockB - pointBlockA)
-  }     
+  }
