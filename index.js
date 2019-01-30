@@ -11,7 +11,7 @@ function distanceFromHqInBlocks(block){
      return distanceFromHqInBlocks(amountOfBlocks) * 264;
  }
 
- function distanceTravelledInFeet (startBlock, endBlock){
-     return startBlock > endBlock ?
-         (startBlock - endBlock) * 264 : (endBlock - startBlock) * 264
- }
+ function distanceTravelledInFeet (pointBlockA, pointBlockB){
+     return pointBlockA > pointBlockB ?
+    (pointBlockA - pointBlockB) * 264 : (pointBlockB - pointBlockA)
+  }     
